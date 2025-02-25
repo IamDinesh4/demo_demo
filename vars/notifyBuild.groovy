@@ -21,5 +21,5 @@ def call(String buildStatus = 'STARTED') {
   }
 
   // Send notifications
-  slackSend (color: colorCode, message: summary, channel: '#airtel-dev')
+  slackSend (color: colorCode, message: summary, channel: '#demo_123')
 }
